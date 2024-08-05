@@ -8,7 +8,7 @@ function App() {
    <>
    <BrowserRouter>
    <Routes>
-<Route path='/' element={<ResetPassword/>}/>
+   <Route path='/reset-password/:randomString/:expitationTimestamp' element={<ResetPassword/>}/>
 
 
    </Routes>
